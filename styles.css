@@ -52,6 +52,8 @@ img {
 /* nav style */
 nav {
   padding: 5px;
+  width: 90%;
+  margin: 0px auto;
 }
 
 .site-name {
