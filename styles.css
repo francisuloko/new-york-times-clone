@@ -9,12 +9,20 @@
 
 html, body {
   position: relative;
+  color: #333;
 }
 p {
-  font-size: 24px;
+  color: #333333;
+  font-size: 22px;
+  font-weight: 400;
   line-height: 35px;
-  margin: 20px 0px;
+  margin: 0px 0px 15px;
 }
+
+hr {
+  border: 1px solid #ddd;
+}
+
 img {
   width: 100%;
 }
@@ -77,9 +85,9 @@ article {
 }
 
 .text {
-  width: 800px;
+  width: 600px;
   margin: 2px auto;
-  padding: 20px 50px;
+  padding: 5px 10px;
 }
 
 .text img {
@@ -92,6 +100,7 @@ article {
   justify-content: space-between;
   align-content: space-between;
   gap: 10px;
+  padding: 40px;
 }
 .headline h1 {
   font-size: 40px;
@@ -100,13 +109,9 @@ article {
   line-height: 50px;
 }
 
-hr {
-  border: 1px solid #eee;
-}
-
 .feature {
   width: 945px;
-  margin: 2px auto;
+  margin: 30px auto;
 }
 
 .social-icons {
@@ -114,5 +119,65 @@ hr {
   gap: 15px;
 }
 
+.publication h3 {
+  margin: 2px;
+}
 
+.publication p {
+  font-size: 14px;
+  color: grey;
+  margin: 2px;
+}
 
+.breaker {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  font-size: 14px;
+}
+.breaker h3 {
+  font-size: 16px;
+}
+.breaker hr {
+  width: 100px;
+  margin: 8px;
+}
+
+.inflation {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url("/images/inflation-945.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.group-top, .group-bottom {
+  position: absolute;
+}
+
+.group-top {
+  top: 200px;
+  left: 0;
+}
+
+.group-bottom {
+  top: 500px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.author hr {
+  width: 100px;
+  margin: 10px 0px;
+}
