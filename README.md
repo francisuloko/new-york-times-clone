@@ -8,8 +8,8 @@
 ## Built With
 
 - Languages - HTML, CSS
-- Frameworks - boostraps
-- Technology - Linters
+- Frameworks - N/A
+- Technology - linters, git and github
 
 To get a local copy up and running follow these simple example steps.
 
@@ -42,9 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hats off to My Coding Partner Ramoun (https://github.com/mrramoun) for all the support.
 
 ## 📝 License
 
