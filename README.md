@@ -9,7 +9,7 @@
 
 - Languages - HTML, CSS
 - Frameworks - N/A
-- Technology - linters, git and github
+- Technology - git and github
 
 To get a local copy up and running follow these simple example steps.
 
