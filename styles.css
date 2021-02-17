@@ -13,6 +13,10 @@ body {
   color: #333;
 }
 
+section {
+  padding: 20px;
+}
+
 p {
   color: #333;
   font-size: 22px;
@@ -49,6 +53,7 @@ img {
   width: 100%;
   border-bottom: 1px solid rgb(214, 210, 210);
   background-color: #fff;
+  z-index: 10;
 }
 
 /* nav style */
@@ -233,4 +238,94 @@ article {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+
+/* Featured Articles */
+.feature-articles {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 50px;
+  background-color: #fefefe;
+}
+.categories,
+.popular {
+  border-top: 1px solid #333;;
+}
+.categories {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.categories hr {
+  border: 1px solid #333;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.cat-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-header p {
+  font-size: 14px;
+  color: #555;
+}
+
+.popular {
+  width: 450px;
+}
+.popular h5 {
+  margin: 8px 0 50px 0;
+  font-size: 18px;
+}
+.popular h4 {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.popular a {
+  color: #333;
+}
+
+.div-border {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.div-border div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-border:hover {
+  box-shadow: 2px 2px 2px 1px rgb(207, 207, 207);
+}
+
+.div-border h3 {
+  font-size: 12px;
+  color: #888;
+  margin: 10px auto;
+}
+
+.div-border p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.more-category p {
+  font-size: 16px;
+  color: #888;
 }
