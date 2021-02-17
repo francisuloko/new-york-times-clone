@@ -7,16 +7,17 @@
   padding: 0;
 }
 
-html, body {
+body {
   position: relative;
   color: #333;
 }
+
 p {
-  color: #333333;
+  color: #333;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 35px;
-  margin: 0px 0px 15px;
+  margin: 0px 0px 15px 0px;
 }
 
 hr {
@@ -70,7 +71,7 @@ nav button {
 }
 
 .subscribe {
-  background-color: #567B95;
+  background-color: #567b95;
   color: #fff;
   border-radius: 5px;
   font-weight: 600;
@@ -104,6 +105,7 @@ article {
   gap: 10px;
   padding: 40px;
 }
+
 .headline h1 {
   font-size: 40px;
   font-style: italic;
@@ -138,9 +140,11 @@ article {
   align-items: center;
   font-size: 14px;
 }
+
 .breaker h3 {
   font-size: 16px;
 }
+
 .breaker hr {
   width: 100px;
   margin: 8px;
@@ -156,7 +160,8 @@ article {
   background-size: contain;
 }
 
-.group-top, .group-bottom {
+.group-top,
+.group-bottom {
   position: absolute;
 }
 
