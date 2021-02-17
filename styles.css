@@ -74,9 +74,11 @@ nav {
   font-family: nyt-frank;
   src: url("Chomsky.woff");
 }
+
 .site-logo {
-  font-family: nyt-frank;
+  font-family: nyt-frank, Arial, Helvetica, sans-serif;
 }
+
 nav button {
   border: 0;
   background-color: white;
@@ -217,11 +219,6 @@ article {
   color: #333;
 }
 
-.cta-social {
-  display: flex;
-  justify-content: space-between;
-}
-
 .comments {
   width: 380px;
   padding: 10px;
@@ -240,7 +237,6 @@ article {
   gap: 10px;
 }
 
-
 /* Featured Articles */
 .feature-articles {
   width: 90%;
@@ -251,10 +247,12 @@ article {
   gap: 50px;
   background-color: #fefefe;
 }
+
 .categories,
 .popular {
   border-top: 1px solid #333;;
 }
+
 .categories {
   width: 95%;
   display: flex;
@@ -286,10 +284,12 @@ article {
 .popular {
   width: 450px;
 }
+
 .popular h5 {
   margin: 8px 0 50px 0;
   font-size: 18px;
 }
+
 .popular h4 {
   margin: 20px 0;
   padding: 10px 0;
