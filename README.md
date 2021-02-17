@@ -42,7 +42,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hats off to My Coding Partner Ramoun (https://github.com/mrramoun) for all the support.
+- Hats off to My Coding Partner Ramoun (https://github.com/mrramoun) for all the support
+- Many thanks to members of my StandUp team for week 1: Tiago, Carlos, Alex, Nikos and Sixtus.
 
 ## 📝 License
 
