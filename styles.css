@@ -7,6 +7,7 @@
   padding: 0;
 }
 
+html,
 body {
   position: relative;
   color: #333;
@@ -15,7 +16,7 @@ body {
 p {
   color: #333;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 35px;
   margin: 0 0 15px;
 }
@@ -106,8 +107,8 @@ article {
   padding: 40px;
 }
 
-.headline h1 {
-  font-size: 40px;
+.headline h2 {
+  font-size: 35px;
   font-style: italic;
   font-weight: 900;
   line-height: 50px;
