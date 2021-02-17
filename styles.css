@@ -193,3 +193,8 @@ article {
 .author h3 {
   font-size: 12px;
 }
+
+.video-embed {
+  border: 0;
+  margin: 20px 0;
+}
