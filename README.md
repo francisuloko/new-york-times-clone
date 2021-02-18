@@ -11,6 +11,10 @@
 - Frameworks - N/A
 - Technology - git and github
 
+## Live Demo
+
+[Live Demo Link](https://francisuloko.github.io/new-york-times-clone/)
+
 To get a local copy up and running follow these simple example steps.
 
 ### Go to github.com/francisuloko/new-york-times-clone
