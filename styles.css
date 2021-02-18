@@ -122,7 +122,7 @@ article {
   justify-content: space-between;
   align-content: space-between;
   gap: 10px;
-  padding: 40px;
+  padding: 5px;
 }
 
 .headline h2 {
@@ -134,7 +134,8 @@ article {
 
 .feature {
   width: 945px;
-  margin: 30px auto;
+  margin: 3px auto;
+  padding: 0;
 }
 
 .social-icons {
