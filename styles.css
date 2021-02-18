@@ -1,0 +1,382 @@
+/* global reset styles */
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  color: #333;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+section {
+  padding: 20px;
+}
+
+p {
+  color: #333;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0 0 15px;
+}
+
+hr {
+  border: 1px solid #ddd;
+}
+
+img {
+  width: 100%;
+}
+
+.img-caption {
+  font-size: 16px;
+  color: gray;
+  margin: 2px;
+  line-height: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* header styles */
+.header {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid rgb(214, 210, 210);
+  background-color: #fff;
+  z-index: 10;
+}
+
+/* nav style */
+nav {
+  padding: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.site-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: nyt-frank;
+  src: url("Chomsky.woff");
+}
+
+.site-logo {
+  font-family: nyt-frank, Arial, Helvetica, sans-serif;
+}
+
+nav button {
+  border: 0;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.subscribe {
+  background-color: #567b95;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* main section */
+article {
+  width: 100%;
+}
+
+.advert {
+  height: 250px;
+  background-color: rgb(236, 236, 236);
+}
+
+.text {
+  width: 600px;
+  margin: 2px auto;
+  padding: 5px 10px;
+}
+
+.text img {
+  width: 100%;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 10px;
+  padding: 5px;
+}
+
+.headline h2 {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+.feature {
+  width: 945px;
+  margin: 3px auto;
+  padding: 0;
+}
+
+.social-icons {
+  justify-content: left;
+  gap: 15px;
+}
+
+.publication h3 {
+  margin: 2px;
+}
+
+.publication p {
+  font-size: 14px;
+  color: grey;
+  margin: 2px;
+}
+
+.breaker {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.breaker h3 {
+  font-size: 16px;
+}
+
+.breaker hr {
+  width: 100px;
+  margin: 8px;
+}
+
+.inflation {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.group-top,
+.group-bottom {
+  position: absolute;
+}
+
+.group-top {
+  top: 190px;
+  left: 0;
+}
+
+.group-bottom {
+  top: 520px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.author hr {
+  width: 100px;
+  margin: 30px 0;
+}
+
+.author h3 {
+  font-size: 12px;
+}
+
+.video-embed {
+  border: 0;
+  margin: 20px 0;
+}
+
+.footnote p {
+  font-size: 0.75rem;
+  line-height: 16px;
+  color: #333;
+}
+
+.comments {
+  width: 380px;
+  padding: 10px;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  background-color: #567b95;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+
+.cta-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Featured Articles */
+.feature-articles {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 50px;
+  background-color: #fefefe;
+}
+
+.categories,
+.popular {
+  border-top: 1px solid #333;
+}
+
+.categories {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.categories hr {
+  border: 1px solid #333;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.cat-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-header p {
+  font-size: 14px;
+  color: #555;
+}
+
+.popular {
+  width: 450px;
+}
+
+.popular h5 {
+  margin: 8px 0 50px 0;
+  font-size: 18px;
+}
+
+.popular h4 {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.popular a {
+  color: #333;
+}
+
+.div-border {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.div-border div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-border:hover {
+  box-shadow: 2px 2px 2px 1px rgb(207, 207, 207);
+}
+
+.div-border h3 {
+  font-size: 12px;
+  color: #888;
+  margin: 10px auto;
+}
+
+.div-border p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.more-category p {
+  font-size: 16px;
+  color: #888;
+}
+
+.groove {
+  border-top: 2px groove #ddd;
+  width: 90%;
+  margin: 2px auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.footer-links li {
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+.inline-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-size: 12px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  width: 90%;
+  margin: 2px auto;
+}
+
+.inline-links a {
+  color: #888;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid black;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
