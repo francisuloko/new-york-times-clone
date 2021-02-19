@@ -390,10 +390,13 @@ article {
 
 .comment-section form {
   width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
   display: block;
+  margin: 5px auto;
+  color: #777;
 }
 
 .comment-section li {
