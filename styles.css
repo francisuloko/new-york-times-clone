@@ -244,7 +244,7 @@ article {
 /* Featured Articles */
 .feature-articles {
   width: 90%;
-  margin: 50px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -379,4 +379,45 @@ article {
 .site-footer {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* Add Comment section */
+.comment-section {
+  margin: 30px auto;
+  padding-top: 20px;
+  border-top: 1px solid #567b95;
+}
+
+.comment-section form {
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+  margin: 5px auto;
+  color: #777;
+}
+
+.comment-section li {
+  margin: 10px auto 15px auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 380px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(206, 204, 204);
+}
+
+.comment-section button {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #567b95;
+  border: 0;
 }
